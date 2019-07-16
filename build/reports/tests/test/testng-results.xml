@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="FunctionalTests" duration-ms="4292" started-at="2019-07-16T09:39:59Z" finished-at="2019-07-16T09:40:03Z">
+  <suite name="FunctionalTests" duration-ms="5030" started-at="2019-07-16T12:24:47Z" finished-at="2019-07-16T12:24:52Z">
     <groups>
     </groups>
-    <test name="all-ui-tests" duration-ms="4292" started-at="2019-07-16T09:39:59Z" finished-at="2019-07-16T09:40:03Z">
+    <test name="all-ui-tests" duration-ms="5030" started-at="2019-07-16T12:24:47Z" finished-at="2019-07-16T12:24:52Z">
       <class name="com.devchalange.online.test.OpenNewHotelPageTest">
-        <test-method status="PASS" signature="verifyNewHotelPageOpens()[pri:0, instance:com.devchalange.online.test.OpenNewHotelPageTest@40b5d5e5]" name="verifyNewHotelPageOpens" duration-ms="3044" started-at="2019-07-16T09:39:59Z" finished-at="2019-07-16T09:40:02Z">
+        <test-method status="PASS" signature="verifyNewHotelPageOpens()[pri:0, instance:com.devchalange.online.test.OpenNewHotelPageTest@44a7ead7]" name="verifyNewHotelPageOpens" duration-ms="3698" started-at="2019-07-16T12:24:47Z" finished-at="2019-07-16T12:24:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNewHotelPageOpens -->
       </class> <!-- com.devchalange.online.test.OpenNewHotelPageTest -->
       <class name="com.devchalange.online.test.NameTextFieldVerificationTest">
-        <test-method status="PASS" signature="verifyNewHotelPageOpens()[pri:0, instance:com.devchalange.online.test.NameTextFieldVerificationTest@2f2ebd04]" name="verifyNewHotelPageOpens" duration-ms="1233" started-at="2019-07-16T09:40:02Z" finished-at="2019-07-16T09:40:03Z">
+        <test-method status="PASS" signature="verifyNewHotelPageOpens()[pri:0, instance:com.devchalange.online.test.NameTextFieldVerificationTest@5f5e8bc0]" name="verifyNewHotelPageOpens" duration-ms="1223" started-at="2019-07-16T12:24:51Z" finished-at="2019-07-16T12:24:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNewHotelPageOpens -->

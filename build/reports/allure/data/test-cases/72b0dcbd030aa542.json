@@ -1,0 +1,62 @@
+{
+  "uid" : "72b0dcbd030aa542",
+  "name" : "verifyNewHotelPageOpens",
+  "fullName" : "com.devchalange.online.test.OpenNewHotelPageTest.verifyNewHotelPageOpens",
+  "historyId" : "527aeb0db86efa0c59a98a624cc5843f",
+  "time" : {
+    "start" : 1563278356219,
+    "stop" : 1563278359760,
+    "duration" : 3541
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.devchalange.online.test.OpenNewHotelPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.devchalange.online.test.OpenNewHotelPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyNewHotelPageOpens"
+  }, {
+    "name" : "parentSuite",
+    "value" : "FunctionalTests"
+  }, {
+    "name" : "suite",
+    "value" : "all-ui-tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.devchalange.online.test.OpenNewHotelPageTest"
+  }, {
+    "name" : "host",
+    "value" : "MBP-Nikolaj.synapse.com"
+  }, {
+    "name" : "thread",
+    "value" : "10039@MBP-Nikolaj.synapse.com.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "72b0dcbd030aa542.json",
+  "parameterValues" : [ ]
+}

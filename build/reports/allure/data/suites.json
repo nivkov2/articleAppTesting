@@ -1,0 +1,47 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "FunctionalTests",
+    "children" : [ {
+      "name" : "all-ui-tests",
+      "children" : [ {
+        "name" : "com.devchalange.online.test.OpenNewHotelPageTest",
+        "children" : [ {
+          "name" : "verifyNewHotelPageOpens",
+          "uid" : "72b0dcbd030aa542",
+          "parentUid" : "ab8c711b54c574f0974028970d124c24",
+          "status" : "passed",
+          "time" : {
+            "start" : 1563278356219,
+            "stop" : 1563278359760,
+            "duration" : 3541
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ab8c711b54c574f0974028970d124c24"
+      }, {
+        "name" : "com.devchalange.online.test.NameTextFieldVerificationTest",
+        "children" : [ {
+          "name" : "verifyNewHotelPageOpens",
+          "uid" : "d550492dd03bd618",
+          "parentUid" : "d04cbd60963741a3bb12b7d9df0c839e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1563278359838,
+            "stop" : 1563278361070,
+            "duration" : 1232
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d04cbd60963741a3bb12b7d9df0c839e"
+      } ],
+      "uid" : "75d12a2595dd8047a559b4cf8fd48905"
+    } ],
+    "uid" : "170abf7ec491374becf252ecb4dd87a5"
+  } ]
+}

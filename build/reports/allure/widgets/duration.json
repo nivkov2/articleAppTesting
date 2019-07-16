@@ -1,0 +1,21 @@
+[ {
+  "uid" : "d550492dd03bd618",
+  "name" : "verifyNewHotelPageOpens",
+  "time" : {
+    "start" : 1563278359838,
+    "stop" : 1563278361070,
+    "duration" : 1232
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72b0dcbd030aa542",
+  "name" : "verifyNewHotelPageOpens",
+  "time" : {
+    "start" : 1563278356219,
+    "stop" : 1563278359760,
+    "duration" : 3541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

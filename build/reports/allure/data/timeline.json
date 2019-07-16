@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MBP-Nikolaj.synapse.com",
+    "children" : [ {
+      "name" : "10039@MBP-Nikolaj.synapse.com.Test worker(11)",
+      "children" : [ {
+        "name" : "verifyNewHotelPageOpens",
+        "uid" : "d550492dd03bd618",
+        "parentUid" : "c73eb7f7ce70881fc18090e57625721e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563278359838,
+          "stop" : 1563278361070,
+          "duration" : 1232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyNewHotelPageOpens",
+        "uid" : "72b0dcbd030aa542",
+        "parentUid" : "c73eb7f7ce70881fc18090e57625721e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563278356219,
+          "stop" : 1563278359760,
+          "duration" : 3541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c73eb7f7ce70881fc18090e57625721e"
+    } ],
+    "uid" : "e51baa6497e01a76cacbdd694f1201eb"
+  } ]
+}

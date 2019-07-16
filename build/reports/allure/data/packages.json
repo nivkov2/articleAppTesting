@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.devchalange.online.test",
+    "children" : [ {
+      "name" : "OpenNewHotelPageTest",
+      "children" : [ {
+        "name" : "verifyNewHotelPageOpens",
+        "uid" : "72b0dcbd030aa542",
+        "parentUid" : "675295650392b00f714c521424178d2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563278356219,
+          "stop" : 1563278359760,
+          "duration" : 3541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "675295650392b00f714c521424178d2f"
+    }, {
+      "name" : "NameTextFieldVerificationTest",
+      "children" : [ {
+        "name" : "verifyNewHotelPageOpens",
+        "uid" : "d550492dd03bd618",
+        "parentUid" : "4f08b24586387c136ae2b6669d901119",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563278359838,
+          "stop" : 1563278361070,
+          "duration" : 1232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4f08b24586387c136ae2b6669d901119"
+    } ],
+    "uid" : "com.devchalange.online.test"
+  } ]
+}
