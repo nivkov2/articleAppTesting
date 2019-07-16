@@ -1,0 +1,30 @@
+group 'com.devchalenge.online'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+defaultTasks 'clean', 'test'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.testng', name: 'testng', version: '6.14.3'
+    compile 'com.codeborne:selenide:5.2.4'
+    compile group: 'org.assertj', name: 'assertj-core', version: '3.12.2'
+    compile group: 'com.github.javafaker', name: 'javafaker', version: '0.18'
+}
+
+test { //this is the gradle task to be executed
+    useTestNG() { //Tells Gradle to use TestNG
+        useDefaultListeners = true // Tells TestNG to execute its default reporting structure
+        suites 'src/test/FunctionalTests.xml' //location of our suite.xml
+    }
+    testLogging {
+        events "PASSED", "FAILED", "SKIPPED"
+    }
+}

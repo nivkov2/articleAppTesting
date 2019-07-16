@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.devchalange.online.test.OpenNewHotelPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-16T09:39:59" hostname="MBP-Nikolaj.synapse.com" time="3.044">
+  <properties/>
+  <testcase name="verifyNewHotelPageOpens" classname="com.devchalange.online.test.OpenNewHotelPageTest" time="3.044"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jul 16, 2019 12:39:59 PM com.codeborne.selenide.drivercommands.LazyDriver getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 11 - let's create a new webdriver
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}) on port 24719
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jul 16, 2019 12:40:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 16, 2019 12:40:00 PM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jul 16, 2019 12:40:00 PM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=75.0.3770.100 Platform=MAC
+Jul 16, 2019 12:40:00 PM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.2.4
+Jul 16, 2019 12:40:00 PM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jul 16, 2019 12:40:00 PM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 11: ChromeDriver -> ChromeDriver: chrome on MAC (56971391d842e7f33c32767959b6703c)
+]]></system-err>
+</testsuite>
