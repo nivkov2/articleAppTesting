@@ -46,5 +46,4 @@ allure {
         version = '2.12.1'
     }
     downloadLink = 'https://dl.bintray.com/qameta/generic/io/qameta/allure/allure/2.1.1/allure-2.1.1.zip'
-
 }
