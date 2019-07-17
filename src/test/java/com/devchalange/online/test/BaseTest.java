@@ -9,7 +9,7 @@ public class BaseTest {
     @BeforeSuite
     public void setup(){
         Configuration.headless = true;
-        System.setProperty("webdriver.chrome.driver", "com.devchalenge.online/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
     }
 
     public <T> T at(Class<T> className){
