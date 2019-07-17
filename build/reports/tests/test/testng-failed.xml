@@ -3,16 +3,18 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [FunctionalTests]">
   <test thread-count="5" verbose="0" name="all-ui-tests(failed)">
     <classes>
-      <class name="com.devchalange.online.test.NameTextFieldVerificationTest">
-        <methods>
-          <include name="verifyNewHotelPageOpens"/>
-        </methods>
-      </class> <!-- com.devchalange.online.test.NameTextFieldVerificationTest -->
       <class name="com.devchalange.online.test.OpenNewHotelPageTest">
         <methods>
+          <include name="setup"/>
           <include name="verifyNewHotelPageOpens"/>
         </methods>
       </class> <!-- com.devchalange.online.test.OpenNewHotelPageTest -->
+      <class name="com.devchalange.online.test.NameTextFieldVerificationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyNewHotelPageOpens"/>
+        </methods>
+      </class> <!-- com.devchalange.online.test.NameTextFieldVerificationTest -->
     </classes>
   </test> <!-- all-ui-tests(failed) -->
 </suite> <!-- Failed suite [FunctionalTests] -->
