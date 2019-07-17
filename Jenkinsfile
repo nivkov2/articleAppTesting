@@ -9,6 +9,7 @@ pipeline {
             steps {
                 script {
                    sh './gradlew clean test --no-daemon'
+                }
             }
         }
     }
