@@ -39,11 +39,7 @@ allure {
     configuration = 'compile'
     version = '2.5.0'
 
-    resultsDir = file('build/allure-results')
-    reportDir = file('build/allure-results')
-
     useTestNG{
         version = '2.12.1'
     }
-    downloadLink = 'https://dl.bintray.com/qameta/generic/io/qameta/allure/allure/2.1.1/allure-2.1.1.zip'
 }

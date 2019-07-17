@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="FunctionalTests" duration-ms="6267" started-at="2019-07-17T13:37:21Z" finished-at="2019-07-17T13:37:27Z">
+  <suite name="FunctionalTests" duration-ms="4194" started-at="2019-07-17T13:53:29Z" finished-at="2019-07-17T13:53:33Z">
     <groups>
     </groups>
-    <test name="all-ui-tests" duration-ms="6267" started-at="2019-07-17T13:37:21Z" finished-at="2019-07-17T13:37:27Z">
+    <test name="all-ui-tests" duration-ms="4194" started-at="2019-07-17T13:53:29Z" finished-at="2019-07-17T13:53:33Z">
       <class name="com.devchalange.online.test.OpenNewHotelPageTest">
-        <test-method status="PASS" signature="verifyNewHotelPageOpens()[pri:0, instance:com.devchalange.online.test.OpenNewHotelPageTest@2b945872]" name="verifyNewHotelPageOpens" duration-ms="4675" started-at="2019-07-17T13:37:21Z" finished-at="2019-07-17T13:37:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.devchalange.online.test.OpenNewHotelPageTest@36994f73]" name="setup" is-config="true" duration-ms="34" started-at="2019-07-17T13:53:29Z" finished-at="2019-07-17T13:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyNewHotelPageOpens()[pri:0, instance:com.devchalange.online.test.OpenNewHotelPageTest@36994f73]" name="verifyNewHotelPageOpens" duration-ms="2928" started-at="2019-07-17T13:53:29Z" finished-at="2019-07-17T13:53:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNewHotelPageOpens -->
       </class> <!-- com.devchalange.online.test.OpenNewHotelPageTest -->
       <class name="com.devchalange.online.test.NameTextFieldVerificationTest">
-        <test-method status="PASS" signature="verifyNewHotelPageOpens()[pri:0, instance:com.devchalange.online.test.NameTextFieldVerificationTest@6b3224c2]" name="verifyNewHotelPageOpens" duration-ms="1482" started-at="2019-07-17T13:37:25Z" finished-at="2019-07-17T13:37:27Z">
+        <test-method status="PASS" signature="verifyNewHotelPageOpens()[pri:0, instance:com.devchalange.online.test.NameTextFieldVerificationTest@28216db3]" name="verifyNewHotelPageOpens" duration-ms="1164" started-at="2019-07-17T13:53:32Z" finished-at="2019-07-17T13:53:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNewHotelPageOpens -->
