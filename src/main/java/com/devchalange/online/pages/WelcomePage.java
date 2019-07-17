@@ -5,7 +5,7 @@ import com.codeborne.selenide.Selenide;
 public class WelcomePage extends BasePage {
 
     public static WelcomePage open() {
-        Selenide.open("host.docker.internal:5000/article/faces/welcome.xhtml");
+        Selenide.open("https://www.google.com");
         return new WelcomePage();
     }
 
