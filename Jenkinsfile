@@ -9,7 +9,7 @@ pipeline {
         stage('Functional Tests') {
             steps {
                 script {
-                   sh './gradlew test'
+                   sh './gradlew clean test'
                 }
             }
         }
