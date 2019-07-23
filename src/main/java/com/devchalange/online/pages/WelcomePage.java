@@ -5,7 +5,7 @@ import com.codeborne.selenide.Selenide;
 public class WelcomePage extends BasePage {
 
     public static WelcomePage open() {
-        Selenide.open("http://articleApp:8080/article/faces/welcome.xhtml");
+        Selenide.open("article-app:8080/article/faces/welcome.xhtml");
         return new WelcomePage();
     }
 
