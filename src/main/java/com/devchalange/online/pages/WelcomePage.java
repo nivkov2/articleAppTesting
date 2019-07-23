@@ -9,6 +9,7 @@ public class WelcomePage extends BasePage {
         return new WelcomePage();
     }
 
+    
     public NewHotelPage navigateToNewHotelPage( ){
         navigationForm.navigateToNewHotelPage();
         return Selenide.page(NewHotelPage.class);
